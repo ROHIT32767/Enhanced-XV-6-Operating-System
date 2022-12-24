@@ -10,4 +10,4 @@
 > * [3](https://github.com/dchandak99/copy-on-write)
 > * [4](https://www.yichuny.page/posts/6s081lab-copy-write-fork-xv6/)
 > * [5](https://github.com/liusy58/xv6/blob/main/README.md)
-> * [6](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cse.iitb.ac.in/~mythili/os/anno_slides/lecture26.pdf)
+> * [6](https://www.cse.iitb.ac.in/~mythili/os/anno_slides/lecture26.pdf)
