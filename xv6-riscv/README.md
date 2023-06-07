@@ -9,12 +9,7 @@
 #### When the process becomes ready again after the I/O, it is inserted at the tail of the same queue, from which it is relinquished earlier
 #### This can be exploited by a programmer (who knows the Time-slices assigned to each queue) by adding short I/O burst of frequency < Time slice of the corresponding queue (remaining / Just before its Time-slice is going to be finished) which abdicates itself from the CPU and rejoins the same queue promptly thereby avoiding degradation of priority
 #### This causes the process to be free from preemption(kind of) and can complete its CPU/IO cycles in the Same/Higher priortiy Queue until its executed completely
--------------------------------------------------------------------------------------------------------------------------
-> * waitx command is referred from (to implement schedulertest.c)  https://github.com/AbhijnanVegi/xv6-tutorial/commit/48b6022d67b0eb54b43f3fe5deb4831f0a01e9bb
-> * schedulertest.c is referred from https://courses.iiit.ac.in/pluginfile.php/142146/mod_forum/attachment/71430/schedulertest.c?forcedownload=1 and is modified as well
-> * alarmtest.c is referred from (To test sigalarm and sigreturn) https://gist.github.com/AbhijnanVegi/0df4ec53cea38618b36ceb28c0ae573b
-> * It is assumed that schedulertest.c is used to check validity of Specification-2 (not usertests.c) as instructed by Group-8 TA
---------------------------------------------------------------------------------------------------------------------------
+
 * > Command to be executed
 
   $ `make qemu`
