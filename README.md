@@ -10,6 +10,10 @@
                          Gowlapalli Rohit       Losetti Mourya
                            2021101113             2021101121
 ```
+
+![MLFQ](https://github.com/ROHIT32767/Enhanced-XV-6-Operating-System/assets/102759922/03a84e2e-5f95-4242-88ed-f81718d03eb9)
+
+
 > * Possible Exploitation of MLFQ Policy by a process
 #### If a process voluntarily relinquishes control of the CPU(eg. For doing I/O), it leaves the queuing network
 #### When the process becomes ready again after the I/O, it is inserted at the tail of the same queue, from which it is relinquished earlier
